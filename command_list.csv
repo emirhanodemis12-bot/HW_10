@@ -1,0 +1,59 @@
+    1  git config --global user.name emirhanodemis12
+    2  git config --global user.email emirhan.odemis12@gmail.com
+    3  git config --global --list
+    4  git remote add origin https://github.com/emirhanodemis12-bot/HW_10.git
+    5  git remote -v
+    6  git remote remove origin
+    7  y
+    8  y
+    9  git remote add origin https://github.com/emirhanodemis12-bot/HW_10.git
+   10  git remote -v
+   11  cd ~/OneDrive/Desktop
+   12  git remote add origin https://github.com/emirhanodemis12-bot/HW_10.git
+   13  HW_10
+   14  cd HW_10
+   15  git remote -v
+   16  git remote -v
+   17  git remote add origin https://github.com/emirhanodemis12-bot/HW_10.git
+   18  git push -u origin main
+   19  git remote -v
+   20  cd ~/OneDrive/Desktop
+   21  ls
+   22  git remote add origin https://github.com/emirhanodemis12-bot/HW_10.git
+   23  cd ~/OneDrive/Desktop/HW_10
+   24  clear
+   25  cd ~/OneDrive/Desktop/SQL
+   26  ls -a
+   27  git init
+   28  git remote remove origin
+   29  git remote add origin https://github.com/emirhanodemis12-bot/HW_10.git
+   30  git remote -v
+   31  git add .
+   32  git commit -m "first commit for HW_10"
+   33  git push -u origin main
+   34  git push -u origin master
+   35  touch text_ignore.txt
+   36  echo "text_ignore.txt" >> .gitignore
+   37  git status
+   38  git add .gitignore
+   39  git commit -m "add .gitignore file"
+   40  git push
+   41  touch text_ignore.txt
+   42  echo "text_ignore.txt" >> .gitignore
+   43  git status
+   44  git add .
+   45  git commit -m "add gitignore rule"
+   46  touch main_test.txt
+   47  git add .
+   48  git commit -m "add main_test file"
+   49  git checkout -b develop
+   50  touch develop_test.txt
+   51  git add .
+   52  git commit -m "add develop_test file"
+   53  echo "test" >> develop_test.txt
+   54  git add .
+   55  git commit -m "update develop_test file"
+   56  git checkout main
+   57  git merge develop
+   58  git log
+   59  history > command_list.csv
